@@ -5,9 +5,9 @@ html {
 
 body {
   margin: 0 auto;
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.1em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 300;
   font-family: 'Comfortaa', cursive;
   color: #222;
 }
@@ -20,8 +20,8 @@ body {
   width: 20%;
 }
 
-.padding_min {
-  padding: 2%;
+.padding_horizontal {
+  padding: 0 2%;
 }
 
 .box_info {
@@ -31,6 +31,7 @@ body {
 .box_column {
   width: 50%;
   float: left;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 1600px) {
@@ -79,4 +80,5 @@ body {
 
 .skills ul {
   margin-left: 40px;
+  margin-bottom: 20px;
 }
