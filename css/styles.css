@@ -5,108 +5,88 @@ html {
 
 body {
   margin: 0 auto;
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
   font-family: 'Comfortaa', cursive;
   color: #222;
-  text-align: center;
 }
 
-.row {
+.structure {
   width: 100%;
-  float: none;
 }
 
-.box_nil_left {
-  width: 25%;
-  float: left;
-  background: yellow;
+.margin {
+  width: 20%;
 }
 
-.box_info_max {
+.padding_min {
+  padding: 1%;
+}
+
+.box_info {
+  width: 60%;
+}
+
+.box_column {
   width: 50%;
   float: left;
-  background: teal;
-}
-
-.box_info_min {
-  width: 25%;
-  float: left;
-  background: teal;
-}
-
-.box_nil_right {
-  width: 25%;
-  float: left;
-  background: orange;
 }
 
 @media (max-width: 1600px) {
-  .box_info_max {
-    width: 75%;
-  }
-
-  .box_info_min {
-    width: 37.5%;
-  }
-
-  .box_info_nil {
+  .margin {
     width: 12.5%;
   }
+
+  .box_info {
+    width: 73%;
+  }
 }
 
-@media (max-width: 800px) {
-  .box_info_max {
-    width: 100%;
-    float: none;
+@media (max-width: 900px) {
+  .margin {
+    width: 10%;
   }
 
-  .box_info_min {
-    width: 100%;
-    float: none;
+  .box_info {
+    width: 80%;
   }
 
-  .box_info_nil {
+  .box_column {
+    width: 80%;
+    float: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .margin {
     width: 0%;
+  }
+
+  .box_info {
+    width: 100%;
+  }
+
+  .box_column {
+    width: 100%;
     float: none;
   }
 }
 
-/*.row {
-  width: 50em;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  border: 2px solid orange; 
-}
-
-.row_box {
-  width: 24em;
-  background: teal;
+.align_center {
   text-align: center;
-  border: 2px solid gold; 
-}*/
-/*
-.about_me {
-  width: 28em;
-  float: left;
-  border: 2px solid blue; 
-}*/
-
-.additionally {
-  clear: both;
-  border: 2px solid green;  
 }
 
-.skills {
-  width: 23em;
-  float: left;
+
+
+.title {
+  line-height: 2;
 }
 
-.working_activity{
-  width: 25em;
-  float: left;
+.skills ul {
+  margin-left: 40px;
+}
+
+.activity{
+  
 }
