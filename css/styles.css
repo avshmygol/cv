@@ -1,0 +1,112 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Comfortaa', cursive;
+  color: #222;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+  float: none;
+}
+
+.box_nil_left {
+  width: 25%;
+  float: left;
+  background: yellow;
+}
+
+.box_info_max {
+  width: 50%;
+  float: left;
+  background: teal;
+}
+
+.box_info_min {
+  width: 25%;
+  float: left;
+  background: teal;
+}
+
+.box_nil_right {
+  width: 25%;
+  float: left;
+  background: orange;
+}
+
+@media (max-width: 1600px) {
+  .box_info_max {
+    width: 75%;
+  }
+
+  .box_info_min {
+    width: 37.5%;
+  }
+
+  .box_info_nil {
+    width: 12.5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .box_info_max {
+    width: 100%;
+    float: none;
+  }
+
+  .box_info_min {
+    width: 100%;
+    float: none;
+  }
+
+  .box_info_nil {
+    width: 0%;
+    float: none;
+  }
+}
+
+/*.row {
+  width: 50em;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 2px solid orange; 
+}
+
+.row_box {
+  width: 24em;
+  background: teal;
+  text-align: center;
+  border: 2px solid gold; 
+}*/
+/*
+.about_me {
+  width: 28em;
+  float: left;
+  border: 2px solid blue; 
+}*/
+
+.additionally {
+  clear: both;
+  border: 2px solid green;  
+}
+
+.skills {
+  width: 23em;
+  float: left;
+}
+
+.working_activity{
+  width: 25em;
+  float: left;
+}
