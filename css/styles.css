@@ -21,7 +21,7 @@ body {
 }
 
 .padding_min {
-  padding: 1%;
+  padding: 2%;
 }
 
 .box_info {
@@ -39,26 +39,26 @@ body {
   }
 
   .box_info {
-    width: 73%;
+    width: 75%;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .margin {
-    width: 10%;
+    width: 15%;
   }
 
   .box_info {
-    width: 80%;
+    width: 70%;
   }
 
   .box_column {
-    width: 80%;
+    width: 100%;
     float: none;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .margin {
     width: 0%;
   }
@@ -77,16 +77,6 @@ body {
   text-align: center;
 }
 
-
-
-.title {
-  line-height: 2;
-}
-
 .skills ul {
   margin-left: 40px;
-}
-
-.activity{
-  
 }
