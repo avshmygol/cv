@@ -20,14 +20,6 @@ body {
   width: 20%;
 }
 
-.padding_all {
-  padding: 2%;
-}
-
-.padding_horizontal {
-  padding: 0 2%;
-}
-
 .box_info {
   width: 60%;
 }
@@ -78,11 +70,43 @@ body {
   }
 }
 
+.padding_all {
+  padding: 2%;
+}
+
+.padding_horizontal {
+  padding: 0 2%;
+}
+
 .align_center {
   text-align: center;
 }
 
-.skills ul {
-  margin-left: 40px;
-  margin-bottom: 20px;
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: orange;
+}
+
+a:visited{
+  color: orange;
+}
+
+h3.title_background {
+  width: 95%;
+  padding: 4px 0 0 7px;
+  color: #FFFFF7;
+  background: #65878F;
+  border-radius: 5px;
+}
+
+p.paragraph {
+  margin: 15px;
+}
+
+ul.list_default {
+  /*margin-top: 15px;
+    margin-left: 40px;*/
+
+  margin: 15px 0 0 40px;
 }
