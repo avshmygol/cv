@@ -20,6 +20,10 @@ body {
   width: 20%;
 }
 
+.padding_all {
+  padding: 2%;
+}
+
 .padding_horizontal {
   padding: 0 2%;
 }
