@@ -7,81 +7,72 @@
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
   <!-- Таблица стилей -->
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/text.css">
+  <link rel="stylesheet" href="css/round.css">
+  <link rel="stylesheet" href="css/margin.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
 
   <title>Андрей Шмыголь — разработчик на Ruby on Rails</title>
 </head>
 <body>
-  <table class="structure">
+  <div class="container">
+    <div class="box_large margin_title align_center">
+      <h1>Андрей Шмыголь</h1>
+      <h2>Разработчик на Ruby on Rails</h2>
+    </div>
 
-    <tr>
-      <td class="margin"></td>
-      <td class="box_info">
-        <div class="align_center padding_all">
-          <h1>Андрей Шмыголь</h1>
-          <h2>Разработчик на Ruby on Rails</h2>
-        </div>
-      </td>
-      <td class="margin"></td>
-    </tr>
+    <div class="box_large">
+      <div class="box_medium">
+        <img class="round_medium" src="images/foto_shmygol.jpg" alt="My foto" width="300" height="400">
+      </div>
+      <div class="box_medium">
+        <h3 class="title_background">О себе</h3>
+        <p class="paragraph">Обеспечиваю процессы автоматизации производства, разрабатываю ПО.</p>
+        <p class="paragraph">Специализация и профессиональные навыки:</p>
+        <ul class="list_default">
+          <li>Проектирование баз данных</li>
+          <li>Проектирование взаимодействия с пользователем</li>
+          <li>Разработка приложений на Ruby on Rails</li>
+          <li>Дизайн интерфейсов</li>
+          <li>Документирование, сопровождение процесса внедрения ПО</li>
+        </ul>
+      </div>
+    </div>
 
-    <tr>
-      <td class="margin"></td>
-      <td class="box_info padding_horizontal">
-        <div class="box_column">
-          <img src="images/foto_shmygol.jpg" alt="My foto" width="300" height="400">
-        </div>
-        <div class="box_column">
-          <h3 class="title_background">О себе</h3>
-          <p class="paragraph">Обеспечиваю процессы автоматизации производства, разрабатываю ПО.</p>
-          <p class="paragraph">Специализация и профессиональные навыки:</p>
-          <ul class="list_default">
-            <li>Проектирование баз данных</li>
-            <li>Проектирование взаимодействия с пользователем</li>
-            <li>Разработка приложений на Ruby on Rails</li>
-            <li>Дизайн интерфейсов</li>
-            <li>Документирование, сопровождение процесса внедрения ПО</li>
-          </ul>
-        </div>
-      <td class="margin"></td>
-    </tr>
+    <div class="box_large">
+      <div class="box_medium skills">
+        <h3 class="title_background">Навыки</h3>
+        <ul class="list_default">
+          <li>Ruby</li>
+          <li>Ruby on Rails</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>SQL</li>
+        </ul>
+      </div>
 
-    <tr>
-      <td class="margin"></td>
-      <td class="box_info padding_horizontal">
-        <div class="box_column skills">
-          <h3 class="title_background">Навыки</h3>
-          <ul class="list_default">
-            <li>Ruby</li>
-            <li>Ruby on Rails</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>SQL</li>
-          </ul>
+      <div class="box_medium">
+        <h3 class="title_background">Места работы</h3>
+        <div>
+          <p class="paragraph">
+            <b>2006</b> — <b>по настоящее время</b><br>
+            Системный администратор, программист<br>
+            <a href="https://niitp.ru/" rel="noopener noreferrer" target="_ blank" title="Акционерное общество &laquo;Научно-исследовательский институт точных приборов&raquo;">АО  &laquo;НИИ ТП&raquo;</a>
+          </p>
         </div>
-        <div class="box_column">
-          <h3 class="title_background">Места работы</h3>
-          <div>
-            <p class="paragraph">
-              <b>2006</b> — <b>по настоящее время</b><br>
-              Системный администратор, программист<br>
-              <a href="https://niitp.ru/" rel="noopener noreferrer" target="_ blank" title="Акционерное общество &laquo;Научно-исследовательский институт точных приборов&raquo;">АО  &laquo;НИИ ТП&raquo;</a>
-            </p>
-          </div>
-          <div>
-            <p class="paragraph">
-              <b>2004</b> — <b>2006</b><br>
-              Системный администратор<br>
-              Сеть ресторанов &laquo;Дрова&raquo;
-            </p>
-          </div>
+        <div>
+          <p class="paragraph">
+            <b>2004</b> — <b>2006</b><br>
+            Системный администратор<br>
+            Сеть ресторанов &laquo;Дрова&raquo;
+          </p>
         </div>
-      <td class="margin"></td>
-    </tr>
+      </div>
+    </div>
 
-  </table>
+  </div>
 
 </body>
 </html>
